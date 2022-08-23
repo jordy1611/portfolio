@@ -1,0 +1,41 @@
+@keyframes slideMeLeft {
+  0%{
+    transform: translateX(-100vw);
+    opacity: 0
+  };
+  80% {
+    transform: translateX(2%);
+  }
+};
+
+@keyframes slideMeRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0
+  };
+  80% {
+    transform: translateX(-2%);
+  }
+};
+
+@keyframes slideMeDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0
+  };
+  80% {
+    transform: translateY(2%);
+  }
+};
+
+@keyframes slideMeUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0
+  };
+  80% {
+    transform: translateY(-2%);
+  }
+}
+
+;
